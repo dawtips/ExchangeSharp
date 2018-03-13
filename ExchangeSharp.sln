@@ -16,6 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{FA26A2AB-DF40-4327-AACD-A507DE6D73AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4ADDAEF-95BF-4FDA-8B2F-8B899EDA3F45} = {B4ADDAEF-95BF-4FDA-8B2F-8B899EDA3F45}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +35,10 @@ Global
 		{D7F9477D-8A6C-4FEE-826E-FE29C42CB5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F9477D-8A6C-4FEE-826E-FE29C42CB5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F9477D-8A6C-4FEE-826E-FE29C42CB5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA26A2AB-DF40-4327-AACD-A507DE6D73AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA26A2AB-DF40-4327-AACD-A507DE6D73AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA26A2AB-DF40-4327-AACD-A507DE6D73AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA26A2AB-DF40-4327-AACD-A507DE6D73AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

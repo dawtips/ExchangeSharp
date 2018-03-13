@@ -27,7 +27,7 @@ namespace ExchangeSharp
         public bool HitPeak { get; private set; }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        protected override void Initialize(ExchangeTradeInfo tradeInfo)
+        public override void Initialize(ExchangeTradeInfo tradeInfo)
         {
             base.Initialize(tradeInfo);
 

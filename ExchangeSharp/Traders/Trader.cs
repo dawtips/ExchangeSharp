@@ -57,7 +57,7 @@ namespace ExchangeSharp
         public List<KeyValuePair<float, float>> SellPrices { get; } = new List<KeyValuePair<float, float>>();
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        protected virtual void Initialize(ExchangeTradeInfo info)
+        public virtual void Initialize(ExchangeTradeInfo info)
         {
             TradeInfo = info;
             LastTradeTimestamp = info.Trade.Ticks;
